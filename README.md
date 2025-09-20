@@ -29,25 +29,39 @@ This app allows you to **add, view, edit, and delete student records** in a SQL 
 
 StudentWebApp/
 ┣ Controllers/
-┃ ┗ StudentsController.cs        # Handles CRUD logic
+┃ ┗ StudentsController.cs  
+
+# Handles CRUD logic
 ┣ Models/
-┃ ┗ Student.cs                   # Student model
+┃ ┗ Student.cs  
+
+# Student model
 ┣ Data/
-┃ ┗ ApplicationDbContext.cs      # EF Core DbContext
+┃ ┗ ApplicationDbContext.cs 
+
+# EF Core DbContext
 ┣ Views/
 ┃ ┣ Shared/
-┃ ┃ ┗ \_Layout.cshtml             # Common layout
+┃ ┃ ┗ \_Layout.cshtml  
+
+# Common layout
 ┃ ┣ Students/
 ┃ ┃ ┣ Index.cshtml               # List students
-┃ ┃ ┣ Create.cshtml              # Add student
+┃ ┃ ┣ Create.cshtml  
+
+# Add student
 ┃ ┃ ┣ Edit.cshtml                # Update student
-┃ ┃ ┣ Details.cshtml             # View details
+┃ ┃ ┣ Details.cshtml 
+
+# View details
 ┃ ┃ ┗ Delete.cshtml              # Delete student
 ┣ wwwroot/
 ┃ ┣ css/site.css                 # Custom CSS
 ┃ ┣ js/site.js                   # Custom JS
 ┃ ┗ lib/bootstrap/               # Bootstrap (optional if using CDN)
-┣ Program.cs                     # Application entry point
+┣ Program.cs                     
+
+# Application entry point
 ┗ appsettings.json                # Database configuration
 
 ````
